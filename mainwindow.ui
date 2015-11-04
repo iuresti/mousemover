@@ -20,7 +20,7 @@
       <item row="0" column="0">
        <widget class="QLabel" name="label">
         <property name="text">
-         <string>Estatus:</string>
+         <string>Status:</string>
         </property>
        </widget>
       </item>
@@ -34,14 +34,14 @@
       <item row="1" column="0">
        <widget class="QLabel" name="label_2">
         <property name="text">
-         <string>Desplazamiento</string>
+         <string>Offset:</string>
         </property>
        </widget>
       </item>
       <item row="2" column="0">
        <widget class="QLabel" name="label_3">
         <property name="text">
-         <string>Intervalo (seg)</string>
+         <string>Interval (sec)</string>
         </property>
        </widget>
       </item>
@@ -78,7 +78,7 @@
       <item>
        <widget class="QPushButton" name="startBtn">
         <property name="text">
-         <string>Iniciar</string>
+         <string>Start</string>
         </property>
        </widget>
       </item>
@@ -95,13 +95,13 @@
      <height>21</height>
     </rect>
    </property>
-   <widget class="QMenu" name="menuAyuda">
+   <widget class="QMenu" name="menuHelp">
     <property name="title">
-     <string>Ayuda</string>
+     <string>Help</string>
     </property>
-    <addaction name="actionAcerca_de"/>
+    <addaction name="actionAbout"/>
    </widget>
-   <addaction name="menuAyuda"/>
+   <addaction name="menuHelp"/>
   </widget>
   <widget class="QToolBar" name="mainToolBar">
    <attribute name="toolBarArea">
@@ -112,9 +112,9 @@
    </attribute>
   </widget>
   <widget class="QStatusBar" name="statusBar"/>
-  <action name="actionAcerca_de">
+  <action name="actionAbout">
    <property name="text">
-    <string>Acerca de...</string>
+    <string>About...</string>
    </property>
   </action>
  </widget>
