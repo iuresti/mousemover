@@ -48,7 +48,7 @@ MainWindow::MainWindow(QWidget *parent) :
 
     connect(&timer, SIGNAL(timeout()), this, SLOT(moveMouse()));
 
-    connect(ui->actionAcerca_de, SIGNAL(triggered(bool)), &aboutDlg, SLOT(showNormal()));
+    connect(ui->actionAbout, SIGNAL(triggered(bool)), &aboutDlg, SLOT(showNormal()));
 
     loadSettings();
 
